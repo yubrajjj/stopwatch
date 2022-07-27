@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+    background-color: black;
+    color: white;
+}
+footer{
+    position: absolute;
+    bottom: 0%;
+}
+body{
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+.digit{
+    font-size: 100px;
+    font-weight: bold;
+}
+text{
+    font-size: 40 px;
+    font-weight: bold;
+}
+#btns{
+    text-align: center;
+  margin-top: 40px;
+}
+.btn{
+    padding: 5px 10px;
+    margin: 0 7px;
+    border: 0px;
+    cursor: pointer;
+}
+#start{
+background-color: #1abc9c;
+}
+#stop{
+background-color: #3498db;
+}
+#reset{
+background-color: #e14c3c;
+}
+
+@media only screen and (max-width:600px) {
+    
+  
+    
+    .digit{
+        font-size: 50px;
+        font-weight: bold;
+}
+}
